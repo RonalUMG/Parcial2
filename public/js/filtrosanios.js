@@ -66,7 +66,7 @@ contenedorAp4.innerHTML = html;
 fetch(adultosR)
 .then(res => res.json())
 .then(data => {
-    console.log("Es vida papu")
+    console.log("THIS IS LOVE")
     imprimirHTMLAdultosR(data.results);
 
 })
