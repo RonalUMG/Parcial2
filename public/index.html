@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parcial 2</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+
+    <!-- nav bar-->
+    <nav class="navbar">
+      <img src="img/logo.png" class="logo" alt="" />
+      <div class="join-box">
+        <select class="generos_select" id="generos_select" onchange="getval(this);">
+          <option value="-1">Elija una Opcion</option>
+        </select>
+        <form name="Veranios">
+          <select class="select" id="anios"name="años" onchange="selectaños(this);">
+            <option value="-1">Elija una Opcion</option>
+          </select>
+          
+        </form>
+        
+        <p class="join-msg">Ilimitado TV shows & Pelis</p>
+        <button class="btn join-btn" onClick="location.href='/filtrosanios.html'">Buscar por año de Estreno</button>
+        <button class="btn join-btn">Suscribase hoy</button>
+        <button class="btn">Ingresar</button>
+        
+      </div>
+    </nav>
+
+    <!-- SEccion principal-->
+    <header class="main">
+      <h1 class="heading">Pelis y Series de TV</h1>
+      <p class="info">
+        Las mejores pelis de la Red, series y cosas para quitar el tiempo,
+        todo esta aqui
+      </p>
+
+      
+      </header>
+
+      <!-- se hacen la referncia a los JS en este orden -->
+    <script src="js/api.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/scroll.js"></script>
+ 
+  </body>
+</html>
