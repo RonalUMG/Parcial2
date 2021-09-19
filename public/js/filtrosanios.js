@@ -27,7 +27,7 @@ contenedorAp3.innerHTML = html;
 
 const ListarPorAño = (año) => {
 
-const tvs_url = `https://api.themoviedb.org/3/discover/movie?api_key=42de64c0a1ee49b8f862c4acc3bdf917&language=es&year=${año}`;
+const tvs_url = `https://api.themoviedb.org/3/discover/movie?api_key=334de744f6e8fa979ca36deefec77824&language=es&year=${año}`;
 
 
 fetch(
